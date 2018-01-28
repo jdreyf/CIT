@@ -9,3 +9,4 @@ Description: (testing) A likelihood-based hypothesis testing approach is impleme
 SystemRequirements: gsl (with development libraries)
 License: Artistic-2.0
 LazyLoad: yes
+Suggests: testthat
