@@ -1,8 +1,10 @@
 #' CIT with continuous outcome, option for one-sided test
 #'
 #' CIT w/ permutation results, continuous outcome, continuous L and G, option for one-sided test of TassocL
-#' 
-#' @param alternative indicates the alternative hypothesis for the association with outcome, T.
+#' Could achieve same p-values by manipulating results of \code{cit.cp}, but then wouldn't be able to
+#' account for one-sided test in \code{fdr.cit}. 
+#'  
+#' @param alternative indicates the alternative hypothesis for the association of L with outcome T.
 #' Must be one of "two.sided", "greater" or "less". You can specify just the initial letter. 
 #' "greater" corresponds to positive association, "less" to negative association.
 #' @export
